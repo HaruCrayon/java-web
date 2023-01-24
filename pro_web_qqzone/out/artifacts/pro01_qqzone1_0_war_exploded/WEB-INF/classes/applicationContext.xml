@@ -12,39 +12,39 @@
         ]>
 
 <beans>
-    <bean id="userBasicDAO" class="com.qqzone.dao.impl.UserBasicDAOImpl"/>
-    <bean id="topicDAO" class="com.qqzone.dao.impl.TopicDAOImpl"/>
-    <bean id="replyDAO" class="com.qqzone.dao.impl.ReplyDAOImpl"/>
-    <bean id="hostReplyDAO" class="com.qqzone.dao.impl.HostReplyDAOImpl"/>
+    <bean id="userBasicDAO" class="com.lee.qqzone.dao.impl.UserBasicDAOImpl"/>
+    <bean id="topicDAO" class="com.lee.qqzone.dao.impl.TopicDAOImpl"/>
+    <bean id="replyDAO" class="com.lee.qqzone.dao.impl.ReplyDAOImpl"/>
+    <bean id="hostReplyDAO" class="com.lee.qqzone.dao.impl.HostReplyDAOImpl"/>
 
-    <bean id="userBasicService" class="com.qqzone.service.impl.UserBasicServiceImpl">
+    <bean id="userBasicService" class="com.lee.qqzone.service.impl.UserBasicServiceImpl">
         <property name="userBasicDAO" ref="userBasicDAO"/>
     </bean>
-    <bean id="topicService" class="com.qqzone.service.impl.TopicServiceImpl">
+    <bean id="topicService" class="com.lee.qqzone.service.impl.TopicServiceImpl">
         <property name="topicDAO" ref="topicDAO"/>
         <property name="replyService" ref="replyService"/>
         <property name="userBasicService" ref="userBasicService"/>
     </bean>
-    <bean id="replyService" class="com.qqzone.service.impl.ReplyServiceImpl">
+    <bean id="replyService" class="com.lee.qqzone.service.impl.ReplyServiceImpl">
         <property name="replyDAO" ref="replyDAO"/>
         <property name="hostReplyService" ref="hostReplyService"/>
         <property name="userBasicService" ref="userBasicService"/>
     </bean>
-    <bean id="hostReplyService" class="com.qqzone.service.impl.HostReplyServiceImpl">
+    <bean id="hostReplyService" class="com.lee.qqzone.service.impl.HostReplyServiceImpl">
         <property name="hostReplyDAO" ref="hostReplyDAO"/>
     </bean>
 
-    <bean id="user" class="com.qqzone.controllers.UserController">
+    <bean id="user" class="com.lee.qqzone.controllers.UserController">
         <property name="userBasicService" ref="userBasicService"/>
         <property name="topicService" ref="topicService"/>
     </bean>
-    <bean id="topic" class="com.qqzone.controllers.TopicController">
+    <bean id="topic" class="com.lee.qqzone.controllers.TopicController">
         <property name="topicService" ref="topicService"/>
     </bean>
-    <bean id="reply" class="com.qqzone.controllers.ReplyController">
+    <bean id="reply" class="com.lee.qqzone.controllers.ReplyController">
         <property name="replyService" ref="replyService"/>
     </bean>
-    <bean id="page" class="com.myssm.myspringmvc.PageController"/>
+    <bean id="page" class="com.lee.myssm.myspringmvc.PageController"/>
 
 </beans>
 

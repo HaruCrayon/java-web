@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="pro03-qqzone1.0:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b9694279-3650-4ea2-aeb2-9a711393a5ab" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/pro01_qqzone1_0_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/classes/com/myssm/basedao/ConnUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/classes/com/myssm/basedao/TransBasicDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/classes/com/myssm/filters/CharacterEncodingFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/classes/com/myssm/filters/OpenSessionInViewFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/classes/com/myssm/ioc/BeanFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/classes/com/myssm/ioc/ClassPathXmlApplicationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/classes/com/myssm/listeners/ContextLoaderListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/classes/com/myssm/myspringmvc/DispatcherServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/classes/com/myssm/myspringmvc/PageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/classes/com/myssm/myspringmvc/ViewBaseServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/classes/com/myssm/trans/TransactionManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/classes/com/myssm/utils/JDBCUtilsByDruid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/classes/com/myssm/utils/StringUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/classes/com/qqzone/controllers/ReplyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/classes/com/qqzone/controllers/TopicController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/classes/com/qqzone/controllers/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/classes/com/qqzone/dao/HostReplyDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/classes/com/qqzone/dao/ReplyDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/classes/com/qqzone/dao/TopicDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/classes/com/qqzone/dao/UserBasicDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/classes/com/qqzone/dao/impl/HostReplyDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/classes/com/qqzone/dao/impl/ReplyDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/classes/com/qqzone/dao/impl/TopicDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/classes/com/qqzone/dao/impl/UserBasicDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/classes/com/qqzone/domain/HostReply.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/classes/com/qqzone/domain/Reply.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/classes/com/qqzone/domain/Topic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/classes/com/qqzone/domain/UserBasic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/classes/com/qqzone/domain/UserDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/classes/com/qqzone/service/HostReplyService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/classes/com/qqzone/service/ReplyService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/classes/com/qqzone/service/TopicService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/classes/com/qqzone/service/UserBasicService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/classes/com/qqzone/service/impl/HostReplyServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/classes/com/qqzone/service/impl/ReplyServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/classes/com/qqzone/service/impl/TopicServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/classes/com/qqzone/service/impl/UserBasicServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/classes/druid.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/lib/attoparser-2.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/lib/commons-dbutils-1.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/lib/druid-1.2.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/lib/javassist-3.20.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/lib/log4j-1.2.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/lib/mysql-connector-j-8.0.31.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/lib/ognl-3.1.26.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/lib/slf4j-log4j12-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/lib/thymeleaf-3.0.12.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/lib/unbescape-1.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/css/bottom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/css/common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/css/detail.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/css/left.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/css/top.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/frames/bottom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/frames/detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/frames/left.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/frames/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/frames/top.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/imgs/del.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/imgs/dy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/imgs/mrf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/imgs/qf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/imgs/wyy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/imgs/zl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pro01_qqzone1_0_war_exploded/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pro01-qqzone1.0/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pro01-qqzone1.0/com/myssm/basedao/ConnUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pro01-qqzone1.0/com/myssm/basedao/TransBasicDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pro01-qqzone1.0/com/myssm/filters/CharacterEncodingFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pro01-qqzone1.0/com/myssm/filters/OpenSessionInViewFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pro01-qqzone1.0/com/myssm/ioc/BeanFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pro01-qqzone1.0/com/myssm/ioc/ClassPathXmlApplicationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pro01-qqzone1.0/com/myssm/listeners/ContextLoaderListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pro01-qqzone1.0/com/myssm/myspringmvc/DispatcherServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pro01-qqzone1.0/com/myssm/myspringmvc/PageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pro01-qqzone1.0/com/myssm/myspringmvc/ViewBaseServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pro01-qqzone1.0/com/myssm/trans/TransactionManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pro01-qqzone1.0/com/myssm/utils/JDBCUtilsByDruid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pro01-qqzone1.0/com/myssm/utils/StringUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pro01-qqzone1.0/com/qqzone/controllers/ReplyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pro01-qqzone1.0/com/qqzone/controllers/TopicController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pro01-qqzone1.0/com/qqzone/controllers/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pro01-qqzone1.0/com/qqzone/dao/HostReplyDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pro01-qqzone1.0/com/qqzone/dao/ReplyDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pro01-qqzone1.0/com/qqzone/dao/TopicDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pro01-qqzone1.0/com/qqzone/dao/UserBasicDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pro01-qqzone1.0/com/qqzone/dao/impl/HostReplyDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pro01-qqzone1.0/com/qqzone/dao/impl/ReplyDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pro01-qqzone1.0/com/qqzone/dao/impl/TopicDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pro01-qqzone1.0/com/qqzone/dao/impl/UserBasicDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pro01-qqzone1.0/com/qqzone/domain/HostReply.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pro01-qqzone1.0/com/qqzone/domain/Reply.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pro01-qqzone1.0/com/qqzone/domain/Topic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pro01-qqzone1.0/com/qqzone/domain/UserBasic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pro01-qqzone1.0/com/qqzone/domain/UserDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pro01-qqzone1.0/com/qqzone/service/HostReplyService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pro01-qqzone1.0/com/qqzone/service/ReplyService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pro01-qqzone1.0/com/qqzone/service/TopicService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pro01-qqzone1.0/com/qqzone/service/UserBasicService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pro01-qqzone1.0/com/qqzone/service/impl/HostReplyServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pro01-qqzone1.0/com/qqzone/service/impl/ReplyServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pro01-qqzone1.0/com/qqzone/service/impl/TopicServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pro01-qqzone1.0/com/qqzone/service/impl/UserBasicServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pro01-qqzone1.0/druid.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/pro01-qqzone1.0.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/src/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/src/com/myssm/basedao/ConnUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/src/com/myssm/basedao/TransBasicDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/src/com/myssm/filters/CharacterEncodingFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/src/com/myssm/filters/OpenSessionInViewFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/src/com/myssm/ioc/BeanFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/src/com/myssm/ioc/ClassPathXmlApplicationContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/src/com/myssm/listeners/ContextLoaderListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/src/com/myssm/myspringmvc/DispatcherServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/src/com/myssm/myspringmvc/PageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/src/com/myssm/myspringmvc/ViewBaseServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/src/com/myssm/trans/TransactionManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/src/com/myssm/utils/JDBCUtilsByDruid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/src/com/myssm/utils/StringUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/src/com/qqzone/controllers/ReplyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/src/com/qqzone/controllers/TopicController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/src/com/qqzone/controllers/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/src/com/qqzone/dao/HostReplyDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/src/com/qqzone/dao/ReplyDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/src/com/qqzone/dao/TopicDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/src/com/qqzone/dao/UserBasicDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/src/com/qqzone/dao/impl/HostReplyDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/src/com/qqzone/dao/impl/ReplyDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/src/com/qqzone/dao/impl/TopicDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/src/com/qqzone/dao/impl/UserBasicDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/src/com/qqzone/domain/HostReply.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/src/com/qqzone/domain/Reply.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/src/com/qqzone/domain/Topic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/src/com/qqzone/domain/UserBasic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/src/com/qqzone/domain/UserDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/src/com/qqzone/service/HostReplyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/src/com/qqzone/service/ReplyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/src/com/qqzone/service/TopicService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/src/com/qqzone/service/UserBasicService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/src/com/qqzone/service/impl/HostReplyServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/src/com/qqzone/service/impl/ReplyServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/src/com/qqzone/service/impl/TopicServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/src/com/qqzone/service/impl/UserBasicServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/src/druid.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/web/css/bottom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/web/css/common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/web/css/detail.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/web/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/web/css/left.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/web/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/web/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/web/css/top.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/web/frames/bottom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/web/frames/detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/web/frames/left.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/web/frames/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/web/frames/top.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/web/imgs/del.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/web/imgs/dy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/web/imgs/mrf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/web/imgs/qf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/web/imgs/wyy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/web/imgs/zl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/web/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/web/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01-qqzone1.0/web/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro_web_qqzone.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pro_web_qqzone.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="2KZrCr5NKaC1SG7UnW0i9DQTtDq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pro03-qqzone1.0/pro03-qqzone1.0.iml" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code_gitee\java-web\pro_web_qqzone\lib_myssm" />
+      <recent name="E:\code_gitee\java-web\pro_web_qqzone" />
+      <recent name="E:\code_gitee\java-web\pro_web_qqzone\pro01-qqzone1.0\src" />
+      <recent name="E:\code_gitee\java-web\pro_web_qqzone\pro01-qqzone1.0\src\com\qqzone" />
+      <recent name="E:\code_gitee\java-web\pro_web_qqzone\pro01-qqzone1.0\web" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\code_gitee\java-web\pro_web_qqzone\pro02-qqzone1.0\src\com\lee" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.0.42" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.42" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/pro02/page.do?operate=page&amp;page=login" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="pro02-qqzone1.0:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/pro02" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="2d26dd8d-e2ae-4fb6-8f34-d53e62880b61" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54314" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="pro02-qqzone1.0:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9694279-3650-4ea2-aeb2-9a711393a5ab" name="Changes" comment="" />
+      <created>1674192836006</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674192836006</updated>
+      <workItem from="1674192837324" duration="21200000" />
+      <workItem from="1674290755769" duration="3392000" />
+      <workItem from="1674369213314" duration="27327000" />
+      <workItem from="1674458401303" duration="21016000" />
+      <workItem from="1674546574123" duration="4025000" />
+      <workItem from="1674551589414" duration="8974000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

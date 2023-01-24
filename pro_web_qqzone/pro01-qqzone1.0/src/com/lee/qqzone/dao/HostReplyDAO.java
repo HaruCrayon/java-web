@@ -1,7 +1,6 @@
 package com.lee.qqzone.dao;
 
 import com.lee.qqzone.domain.HostReply;
-import com.lee.qqzone.domain.Reply;
 
 /**
  * @author LiJing

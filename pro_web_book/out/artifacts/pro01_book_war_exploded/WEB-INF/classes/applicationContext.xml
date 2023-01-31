@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE beans [
+        <!ELEMENT beans (bean*)>
+        <!ELEMENT bean (property*)>
+        <!ELEMENT property (#PCDATA)>
+
+        <!ATTLIST bean id ID #REQUIRED>
+        <!ATTLIST bean class CDATA #IMPLIED>
+        <!ATTLIST property name CDATA #IMPLIED>
+        <!ATTLIST property ref IDREF #IMPLIED>
+        ]>
+
+<beans>
+    <bean id="page" class="com.lee.myssm.myspringmvc.PageController"/>
+
+    <!-- DAO -->
+    <bean id="userDAO" class="com.lee.book.dao.impl.UserDAOImpl"/>
+    <bean id="bookDAO" class="com.lee.book.dao.impl.BookDAOImpl"/>
+    <bean id="cartItemDAO" class="com.lee.book.dao.impl.CartItemDAOImpl"/>
+    <bean id="orderDAO" class="com.lee.book.dao.impl.OrderDAOImpl"/>
+    <bean id="orderItemDAO" class="com.lee.book.dao.impl.OrderItemDAOImpl"/>
+
+    <!-- Service -->
+    <bean id="userService" class="com.lee.book.service.impl.UserServiceImpl">
+        <property name="userDAO" ref="userDAO"/>
+    </bean>
+    <bean id="bookService" class="com.lee.book.service.impl.BookServiceImpl">
+        <property name="bookDAO" ref="bookDAO"/>
+    </bean>
+    <bean id="cartItemService" class="com.lee.book.service.impl.CartItemServiceImpl">
+        <property name="cartItemDAO" ref="cartItemDAO"/>
+        <property name="bookService" ref="bookService"/>
+    </bean>
+    <bean id="orderService" class="com.lee.book.service.impl.OrderServiceImpl">
+        <property name="orderDAO" ref="orderDAO"/>
+        <property name="orderItemDAO" ref="orderItemDAO"/>
+        <property name="cartItemService" ref="cartItemService"/>
+        <property name="bookService" ref="bookService"/>
+    </bean>
+
+    <!-- Controller -->
+    <bean id="user" class="com.lee.book.controllers.UserController">
+        <property name="userService" ref="userService"/>
+        <property name="cartItemService" ref="cartItemService"/>
+    </bean>
+    <bean id="book" class="com.lee.book.controllers.BookController">
+        <property name="bookService" ref="bookService"/>
+    </bean>
+    <bean id="cart" class="com.lee.book.controllers.CartController">
+        <property name="cartItemService" ref="cartItemService"/>
+    </bean>
+    <bean id="order" class="com.lee.book.controllers.OrderController">
+        <property name="orderService" ref="orderService"/>
+    </bean>
+
+</beans>
+

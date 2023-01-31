@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/pro01-book/pro01-book.iml" filepath="$PROJECT_DIR$/pro01-book/pro01-book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro02-cookie-kaptcha/pro02-cookie-kaptcha.iml" filepath="$PROJECT_DIR$/pro02-cookie-kaptcha/pro02-cookie-kaptcha.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro03-vue-axios/pro03-vue-axios.iml" filepath="$PROJECT_DIR$/pro03-vue-axios/pro03-vue-axios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro04-book-cart-vue-axios/pro04-book-cart-vue-axios.iml" filepath="$PROJECT_DIR$/pro04-book-cart-vue-axios/pro04-book-cart-vue-axios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro_web_book.iml" filepath="$PROJECT_DIR$/pro_web_book.iml" />
+    </modules>
+  </component>
+</project>
